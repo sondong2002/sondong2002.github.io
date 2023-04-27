@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Nhà sách Pepe</title>
+    <!-- Favicon-->
+ <link rel="icon" href="Icon.ico" type="image/x-icon">
+    <!-- Bootstrap icons-->
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="d-flex">
+        <nav class="navbar-dark  bg-success row-3 "id="myTopnav">
+        <div class="container-fluid px-4 px-lg-5">
+             <a class="navbar-brand" href="Home.html"><img src="/Icon.ico" alt="Logo" style="width:40px;"data-toggle="tooltip" title="Nhà Sách Pepe"><b href="Home.html">Nhà Sách Pepe</b></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="TruyenTranh.html"data-toggle="tooltip" title="Truyện Tranh">Truyện Tranh</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="SachGiaoKhoa.html"data-toggle="tooltip" title="Sách Giáo Khoa">Sách Giáo Khoa</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="SachThieuNhi.html"data-toggle="tooltip" title="Sách Thiếu Nhi">Sách Thiếu Nhi</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="SachKhongDanhChoTre.html"data-toggle="tooltip" title="Sách Không Dành Cho Trẻ">Sách Không Dành Cho Trẻ</a></li>
+                    <input class="form-control mr-sm-2" type="text" placeholder="Tìm Kiếm" id="search-item">
+                    <button id="cart">
+                        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        Giỏ Hàng
+                    </button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Giỏ Hàng</h5>
+                                <span class="close">&times;</span>
+                            </div>
+                            
+                                <div class="cart-items">
+                                    <div class="modal-body">
+                                        <div class="cart-row">
+                                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                                            <span class="cart-price cart-header cart-column">Giá</span>
+                                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                                        </div>
+                                        <div class="cart-items">
+                                            
+                                        </div>   
+                                        <div class="cart-total">
+                                            <strong class="cart-total-title">Tổng Cộng:</strong>
+                                            <span class="cart-total-price">0VNĐ</span>
+                                        </div>
+                                    </div>            
+                                </div>                                    
+        
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                                <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                            </div>
+                        
+                    </div>
+                
+                  </ul>
+                
+        </div>
+      </nav>
+      
+    <section class="bg-success">
+      <div class="container px-4 px-lg-5 ">    
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">    
+            <div class="col mb-1">
+                <div class="card h-100">
+                    <!-- Sale badge-->
+         
+                    <!-- Product image-->
+                   
+                    <div class="card-body p-4">
+                        <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">-30%</div>
+                        <img class="card-img-top" src="assets/cohocluongtu.jpg" alt="CoHocLuongTu"data-toggle="tooltip" title="Cơ Học Lượng Tử" />
+                        <!-- Product details-->
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder"id="productname"data-toggle="tooltip" title="Cơ Học Lượng Tử">Cơ Học Lượng Tử</h5>
+                            <!-- Product price-->
+                             <div class="price"> 28.000đ</div>
+                            <div class="old-price">40.000đ</div>
+                           
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"  ><button type="button" class="btn btn-cart">Thêm vào giỏ hàng</button></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-1">
+                <div class="card h-100">
+                    <!-- Product image-->
+                   
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <img class="card-img-top" src="assets/chunghiamac-lenin.jpg" alt="ChuNghiaMac-Lenin"data-toggle="tooltip" title="Giáo Trình Những Nguyên Lý Cơ Bản Của Chủ Nghĩa Mac-Lênin" />
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder"id="productname"data-toggle="tooltip" title="Giáo Trình Những Nguyên Lý Cơ Bản Của Chủ Nghĩa Mac-Lênin">Giáo Trình Những Nguyên Lý Cơ Bản Của Chủ Nghĩa Mac-Lênin</h5>
+                            <!-- Product price-->
+                            <div class="price">36.000đ</div>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"  ><button type="button" class="btn btn-cart">Thêm vào giỏ hàng</button></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-1">
+                <div class="card h-100">
+                    <!-- Sale badge-->
+
+                    <!-- Product image-->
+                    
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">-30%</div>
+                        <img class="card-img-top" src="assets/laptrinhpython.jpg" alt="laptrinhpython" data-toggle="tooltip" title="Đường vào lập trình Python"/>
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder"id="productname"data-toggle="tooltip" title="Đường vào lập trình Python">Đường vào lập trình Python</h5>
+                            <!-- Product reviews-->
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                            <!-- Product price-->
+                            <div class="price"> 120.000đ</div>
+                            <div class="old-price">171.400đ</div>
+                           
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"  ><button type="button" class="btn btn-cart">Thêm vào giỏ hàng</button></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-1">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <img class="card-img-top" src="assets/nhungvandemoitrongvatlyhiendai.jpg" data-toggle="tooltip" title="Những vấn đề mới trong vật lý hiện đại"alt="Những vấn đề mới trong vật lý hiện đại" />
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder"id="productname"data-toggle="tooltip" title="Những vấn đề mới trong vật lý hiện đại">Những vấn đề mới trong vật lý hiện đại</h5>
+                            <!-- Product reviews-->
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                            <!-- Product price-->
+                            <div class="price">99.000đ</div>
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"  ><button type="button" class="btn btn-cart">Thêm vào giỏ hàng</button></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-1">
+                <div class="card h-100">
+                     <!-- Product details-->
+                    <div class="card-body p-4">
+                          <!-- Product image-->
+                    <img class="card-img-top" src="assets/ảnh giáo trình/33000.png" alt="Tư tưởng Hồ Chí Minh"data-toggle="tooltip" title="Tư tưởng Hồ Chí Minh" />
+                 
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder"id="productname"data-toggle="tooltip" title="Tư tưởng Hồ Chí Minh">Tư tưởng Hồ Chí Minh</h5>
+                            <!-- Product reviews-->
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                            </div>
+                            <!-- Product price-->
+                   <div class="price">33.000đ </div>
+                
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto"  ><button type="button" class="btn btn-cart">Thêm vào giỏ hàng</button></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        </div>
+      
+        <!-- <div class="xemthem"><a href="#" class="btn btn-info" role="button">Xem thêm</a></div> -->
+        
+        
+    </section>
+</div>
+        <!--Go to top button-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container"><p class="m-0 text-center text-white">Copyright &copy;Anh Khang Đông Chiến Website 2021</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
